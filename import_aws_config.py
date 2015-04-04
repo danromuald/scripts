@@ -26,7 +26,7 @@ def getAwsCreds():
     
     # Load the correct config file to the parser.
     # This could be made better by validating the config file
-    # and passing it to the function; I'm just lazy!
+    # and passing it to the function.
     
     config.read(os.environ['HOME']+'/.aws/credentials')
     
